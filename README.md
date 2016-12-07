@@ -1,2 +1,3 @@
-# xmas
-Defacto Christmas party invitation
+# Defacto Christmas party invitation
+
+![](/xmas.gif?raw=true)
