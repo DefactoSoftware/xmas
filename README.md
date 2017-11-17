@@ -1,3 +1,8 @@
-# Defacto Christmas party invitation
+## Defacto Christmas party invitation
 
-![](/xmas.gif?raw=true)
+```sh
+chmod +x xmas.sh
+./xmas.sh
+```
+
+![preview](/xmas.gif?raw=true)
