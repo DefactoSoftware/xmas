@@ -44,11 +44,11 @@ INTERVAL=1
 
 while :
 do
-  clear
+  clear && printf '\e[3J'
   echo "$TREE1"
   sleep $INTERVAL
 
-  clear
+  clear && printf '\e[3J'
   echo "$TREE2"
   sleep $INTERVAL
 done

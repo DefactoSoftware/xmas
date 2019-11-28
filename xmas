@@ -2,7 +2,7 @@
 
 tell application "iTerm"
   set myWin to (create window with default profile)
-	set the bounds of myWin to {50, 50, 612, 980}
+	set the bounds of myWin to {50, 50, 636, 980}
   set myDir to POSIX path of ((path to me as text) & "::")
 
   tell current session of myWin
@@ -12,7 +12,7 @@ tell application "iTerm"
     set ANSI yellow color to {65535, 65535, 0}
     set ANSI red color to {65535, 0, 0}
 
-    write text "cd " & myDir
-	  write text "./xmas.sh"
-	end tell
+    write text "cd " & myDir & " && ./xmas.sh"
+    -- write text "./xmas.sh"
+  end tell
 end tell
